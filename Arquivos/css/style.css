@@ -1,0 +1,57 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: blue;
+    animation: colorChange 3s infinite alternate;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#moveButton {
+    cursor: pointer;
+    position: absolute;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    border: solid 1px;
+    color: white;
+    cursor: pointer;
+    margin: 5px 0;
+}
+h1{
+    font-family: Calibri;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+@keyframes colorChange {
+    from {
+        background-color: blue; /* Primeira cor antes de passar para a Segundar cor */
+    }
+    to {
+        background-color: rgb(255, 0, 195); /* Segunda cor */
+    }
+}
+
+main{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 29%;
+}
+.menu h1 {
+    margin: 0;
+}
+
+main{
+    margin-top: center;
+    text-align: center;
+}

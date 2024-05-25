@@ -1,0 +1,31 @@
+:root {
+    overflow: hidden;
+  }
+  img{
+    width: 100px;
+    width: 100px;
+  }
+  .sun{
+    margin-top: -20%;
+    animation:
+      4s linear 0s infinite alternate rise,
+      4s linear 0s infinite alternate bounce;
+  }
+  
+  @keyframes rise {
+    from {
+      transform: translateY(110vh);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes bounce {
+    from {
+      transform: translateX(-50vw);
+    }
+    to {
+      transform: translateX(50vw);
+    }
+  }
